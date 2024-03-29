@@ -1,0 +1,280 @@
+body {
+    margin:0;
+    box-sizing:border-box;
+}
+
+.navbar-one {
+    height: 90px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-side {
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url('logo.png');
+    background-size: cover;
+    height: 60px;
+    width: 200px;
+    margin-top: -12px;
+    margin-left: -70px;
+    cursor:pointer;
+}
+
+.center-side{
+    margin-left: 232px;
+    font-size: 19px;
+}
+
+.icon-color {
+    color: rgb(22, 130, 130);
+}
+.right-side{
+    margin-left:1px;
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+
+.button{
+    margin-right:-51px;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: white;
+    border-color: #04AA6D;
+    padding: 15px 32px;
+}
+
+.button1:hover{
+    background-color: white;
+
+}
+
+.navbar-second{
+ background-color: #222b38;
+ height: 70px;
+ display: flex;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+.text{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.text1{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 600px ;
+    cursor: pointer;
+}
+
+.section-part{
+    height: 935px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: -4px;
+}
+
+.ocean {
+    transform: rotate(0deg);
+    height: 433px;
+    width: 1263px;
+    background-size:contain;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+.section  {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: white;
+    padding: 10px;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 60px;
+    color: white;
+    padding:10px;
+}
+
+.button1 {
+    position: absolute;
+    top: 60%;
+    left:5%;
+    font-size: 19px;
+    font-family:sans-serif;
+    background:#50BA86;
+    color: white;
+    border:1px solid white;
+    padding: 28px;
+    min-width: 224px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13px;
+    position: relative;
+    margin-top: -50px;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.ballon{
+    background-image: url('balloon\ flights.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 376px;
+    height:420px;
+    font-size: 37px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .ballon:hover {
+  background-size: contain;
+}
+
+.mountain{
+    background-image: url('moutain\ holiday.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 376px;
+    height: 420px;
+    font-size: 37px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.section1 .mountain:hover {
+    background-size: contain;
+}
+
+.beach{
+    background-image: url('beach\ holiday.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 376px;
+    height: 420px;
+    font-size: 37px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+}
+
+
+.section1 .beach:hover {
+    background-size: contain;
+}
+
+.othertour{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+}
+
+.section2 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.section2-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.section2-inner-left {
+    background-size:contain;
+    padding: 2rem;
+    
+}
+
+.section2-inner-right {
+    display: flex;
+    align-items: center;
+    margin-left: -61px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.section2-inner-right-heading {
+    color: black;
+    font-size: 29px;
+    font-weight: 700;
+    display: flex;
+    margin-right:1px;
+}
+
+.section2-inner-right-desc {
+    color:grey;
+    font-family: serif;
+    display: flex;
+    gap:1rem;
+}
+
+.section2-inner-right-pera {
+    color: black;
+    font-size: 14px;
+    font-family:montserrta;
+}
+
+.section2-inner-right-buttons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+}
+
+
+    
+
+
+
