@@ -262,12 +262,34 @@ body {
     color: white;
 }
 
-.main-section-ourservices{
+.main-section-services-our{
     display: flex;
-    font-size: 30px;
-    font-weight: 600;
-    font-family:montserrta;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-section-services-our-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.main-section-services-our-content-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80vw;
+}
+
+.main-section-services-our-content-inner-element {
+    display: flex;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    gap: 1rem;
+    width: 20rem;
+    margin: 1rem;
 }
 
 .main-section-services-boxes {
