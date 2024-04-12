@@ -271,15 +271,16 @@ body {
 }
 
 .main-section-services-our-title {
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-size:30px;
+    font-weight: 600;
 }
 
 .main-section-services-our-content-inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80vw;
+    width: 120vw;
+    height: 69vh;
 }
 
 .main-section-services-our-content-inner-element {
@@ -290,28 +291,83 @@ body {
     gap: 1rem;
     width: 20rem;
     margin: 1rem;
+    transition: transform 0.3s ease;
 }
 
-.main-section-services-boxes {
+.main-section-services-our-content-inner-element:hover {
+    transform: scale(1.05);
+}
+
+.main-section-services-hot-tours {
     display: flex;
-    padding: 40px 0px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
-.box {
-    width:274px;
-    height: 145px;
-    background-color: white;
-    border: 1px solid gray;
-    margin: 20px;
-    text-align: center;
-    transition: transform 0.3s ease;    
+    gap: 2rem;
+    margin: 5rem;
+
 }
 
-.box:hover {
-    transform: scale(1.05 );
+.main-section-services-hot-tours-title {
+    font-family: montserrat;
+    font-size: 30px;
+    font-weight: 600;
 }
+
+.main-section-services-hot-tours-explore{
+    flex-direction: column;
+    margin-top: 1px;
+}
+
+.main-section-services-hot-tours-spain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(207, 204, 204);
+}
+
+.main-section-services-hot-tours-spain-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid balck;
+}
+
+.main-section-services-hot-tours-spain-right--title {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-section-services-hot-tours-spain-right--content-des {
+    color: grey;
+}
+
+.btn-buythistour .btn-buythistour1 {
+background-color: white;
+font-family: sans-serif;
+color: black;
+gap:1px;
+padding:16px 33px;
+display: inline-block;
+cursor: pointer;
+}
+
+.btn-buythistour:hover {
+background-color: #04AA6D;
+border: none;
+color: white;
+}
+
+
+
+
+
+
+
 
 
 @keyframes fadeInLeft {
