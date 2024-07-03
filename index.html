@@ -6,10 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Website</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl
-    +Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="tab.js"></script>
 </head>
 
@@ -24,13 +21,13 @@
 
         <div class="main-header-top-center">
           <!-- visit time -->
-          <i class="fa-regular fa-clock icon-color"></i>
+          <img class="clock" src="data:image/png;base64,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" alt="clock" />
           <span>9:00AM - 5:00PM</span>
         </div>
 
         <div class="main-header-top-right">
           <!-- contact number -->
-          <i class="fa-solid fa-phone icon-color"></i>
+          <i class=" fa fa-solid fa-phone icon-color"></i>
           <span>+1 323-913-4688</span>
         </div>
 
@@ -54,10 +51,10 @@
         <div class="main-header-two-right">
           <!-- social links -->
           <ul class="main-header-two-right-social">
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-google"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class=" fa fa-brands fa-facebook"></i></li>
+            <li><i class=" fa fa-brands fa-twitter"></i></li>
+            <li><i class=" fa fa-brands fa-google"></i></li>
+            <li><i class= "fa fa-brands fa-instagram"></i></li>
           </ul>
         </div>
       </div>
@@ -68,66 +65,64 @@
       <!-- Banner Section Top -->
       <div class="main-section-bannerOne">
         <!-- <img class="ocean" src="./images/ocean.jpg" alt="ocean"/> -->
-        <div class="main-section-bannerOne-subTitle">
-          Enjoy the Best Destinations with our travel agency
-        </div>
-        <div class="main-section-bannerOne-title">
-          Explore the World
-        </div>
-        <div class="main-section-bannerOne-cta">
-          <button class="button-secondary">
-            Get in Touch
-          </button>
-        </div>
-        <!-- <p class="overlay" >ENJOY THE BEST DESTINATIONS WITH OUR TRAVEL AGENCY</p>
-        <h1 class=" overlay1">Explore The World</h1>  -->
-      </div>
+         <div class="main-section-bannerOne-subTitle">
+             Enjoy the Best Destinations with our travel agency
+         </div>
+         <div class="main-section-bannerOne-title">
+             Explore the World
+         </div>
+         <div class="main-section-bannerOne-cta">
+            <button class="button-secondary">
+               Get in Touch
+            </button>
+         </div>
+         <!-- <p class="overlay" >ENJOY THE BEST DESTINATIONS WITH OUR TRAVEL AGENCY</p>
+         <h1 class=" overlay1">Explore The World</h1>  -->
+       </div>
 
-      <!-- Banner Section Bottom -->
-      <div class="main-section-bannerTwo">
-        <div class="main-section-bannerTwo-images">
-          <div class="main-section-bannerTwo-images--background ballon">Balloon Flights</div>
-          <div class="main-section-bannerTwo-images--background mountain">Mountain Holiday</div>
-          <div class="main-section-bannerTwo-images--background beach">Beach Holiday</div>
+         <!-- Banner Section Bottom -->
+        <div class="main-section-bannerTwo">
+            <div class="main-section-bannerTwo-images">
+              <div class="main-section-bannerTwo-images--background ballon"><h4>Balloon Flights</h4></div>
+              <div class="main-section-bannerTwo-images--background mountain"><h4>Mountain Holiday</h4></div>
+              <div class="main-section-bannerTwo-images--background beach"><h4>Beach Holiday</h4></div>
+            </div>
+            <div class="main-section-bannerTwo-other">
+                  Other Tours 
+            </div>
         </div>
-        <div class="main-section-bannerTwo-other">
-          Other Tours 
-        </div>
-      </div>
-
-      <!-- Services Section -->
-      <div class="main-section-services">
-
+        <!-- Services Section -->
+        <div class="main-section-services">
         <!-- Discover Section -->
         <div class="main-section-services-discover">
-          <div class="main-section-services-discover-left">
-            <img src="images/water.jpg" alt="Discover New Horizon" />
-          </div>
-          <div class="main-section-services-discover-right">
-            <div class="main-section-services-discover-right--title">
-              Discover New Horizons
-            </div>
-            <div class="main-section-services-discover-right--tabs">
-              <div class="main-section-services-discover-right--tabs-title">
-                <div 
-                  class="main-section-services-discover-right--tabs-title-tab1 tab active"
-                  onclick="tabUpdate('tab1')"
-                >
-                  About Us
-                </div>
-                <div 
-                  class="main-section-services-discover-right--tabs-title-tab2 tab"
-                  onclick="tabUpdate('tab2')"  
-                >
-                  Why Choose us
-                </div>
-                <div 
-                  class="main-section-services-discover-right--tabs-title-tab3 tab"
-                  onclick="tabUpdate('tab3')"  
-                >
-                  Our Mission
-                </div>
+              <div class="main-section-services-discover-left">
+                <img src="images/water.jpg" alt="Discover New Horizon" />
               </div>
+              <div class="main-section-services-discover-right">
+                <div class="main-section-services-discover-right--title">
+                    Discover New Horizons
+                </div>
+                <div class="main-section-services-discover-right--tabs">
+                  <div class="main-section-services-discover-right--tabs-title">
+                    <div 
+                      class="main-section-services-discover-right--tabs-title-tab1 tab active"
+                      onclick="tabUpdate('tab1')"
+                    >
+                      About Us
+                    </div>
+                    <div 
+                      class="main-section-services-discover-right--tabs-title-tab2 tab"
+                      onclick="tabUpdate('tab2')"  
+                    >
+                      Why Choose us
+                    </div>
+                    <div 
+                      class="main-section-services-discover-right--tabs-title-tab3 tab"
+                      onclick="tabUpdate('tab3')"  
+                    >
+                      Our Mission
+                    </div>
+                  </div>
 
               <div class="main-section-services-discover-right--tabs-content">
                 <div id="tab1" class="main-section-services-discover-right--tabs-content-tab active">
@@ -142,8 +137,8 @@
               </div>
             </div>
             <div class="main-section-services-discover-right--buttons">
-              <button class="btn1-getintouch">Get in Touch</button>
-              <button class="btn2-readmore">Read More</button>
+                <button class="btn1-getintouch">Get in Touch</button>
+                <button class="btn2-readmore">Read More</button>
             </div>
           </div>
         </div>
@@ -157,7 +152,7 @@
             <div class="main-section-services-our-content-inner">
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <img src="" alt="Personalized"/>
+                 <img class="img" src="images\personalized icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -170,7 +165,7 @@
               </div>
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <i class="fa-regular fa-clock icon-color"></i>
+                 <img class="img" src="images\wide icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -183,7 +178,7 @@
               </div>
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <i class="fa-regular fa-star"></i>
+                  <img class="img" src="images\qualified icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -196,7 +191,7 @@
               </div>
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <i class="fa-solid fa-headphones"></i>
+                  <img class="img" src="images\support icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -209,7 +204,7 @@
               </div>
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <i class="fa-solid fa-fire"></i>
+                  <img class="img" src="images\handpicked icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -222,7 +217,7 @@
               </div>
               <div class="main-section-services-our-content-inner-element">
                 <div class="main-section-services-our-content-inner-element-left">
-                  <i class="fa-solid fa-wallet"></i>
+                  <img class="img" src="images\price icon.png" alt="icon"/>
                 </div>
                 <div class="main-section-services-our-content-inner-element-right">
                   <div class="main-section-services-our-content-inner-element-right-heading">
@@ -241,44 +236,167 @@
           <div class="main-section-services-hot-tours-title">
             Hot Tours
           </div>
-        <div class="main-section-services-hot-tours-explore">
-          <div class="main-section-services-hot-tours-spain">
-            <div class="main-section-services-hot-tours-spain-left">
-              <img src="images/spainBeach.jpg" alt="spain" />
-            </div>
-            <div class="main-section-services-hot-tours-spain-right">
-              <div class="main-section-services-hot-tours-spain-right--title">
-                Benidorm, Spain
+            <div class="main-section-services-hot-tours-explore">
+              <div class="main-section-services-hot-tours-spain">
+                    <div class="main-section-services-hot-tours-spain-left">
+                      <img src="images/spainBeach.jpg" alt="spain" />
+                    </div>
+                <div class="main-section-services-hot-tours-spain-right">
+                    <div class="main-section-services-hot-tours-spain-right--title">
+                      Benidorm, Spain
+                    </div>
+                    <div class="main-section-services-hot-tours-spain-right--content">
+                      <div class="main-section-services-hot-tours-spain-right--content-des">
+                        Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...
+                      </div>
+                      <div class="main-section-services-hot-tours-spain-right--buttons">
+                          <button class="btn-buythistour">Buy This Tour </button>
+                      </div>
+                </div>
               </div>
-                <div class="main-section-services-hot-tours-spain-right--content">
-                  <div class="main-section-services-hot-tours-spain-right--content-des">
-                    Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny Costa Blanca, the town is one of the original Spanish beach resorts...
+            </div>
+            <div class="main-section-services-hot-tours-explore">
+              <div class="main-section-services-hot-tours-africa">
+                    <div class="main-section-services-hot-tours-africa-left">
+                      <img src="images/africa.jpg" alt="africa" />
+                    </div>
+                <div class="main-section-services-hot-tours-africa-right">
+                    <div class="main-section-services-hot-tours-africa-right--title">
+                        Mauritius Island, Africa 
+                    </div>
+                    <div class="main-section-services-hot-tours-africa-right--content">
+                      <div class="main-section-services-hot-tours-africa-right--content-des">
+                        The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...
+                      </div>
+                    <div class="main-section-services-hot-tours-right-africa--buttons">
+                        <button class="btn-buythistour1">Buy This Tour</button>
+                    </div>
                   </div>
-              <div class="main-section-services-hot-tours-spain-right--buttons">
-                <button class="btn-buythistour">Buy This Tour </button>
-              </div>
+              </div> 
             </div>
-          </div>
-        </div>
-          <div class="main-section-services-hot-tours-africa">
-            <div class="main-section-services-hot-tours-africa-left">
-              <img src="images/africa.jpg" alt="africa" />
-            </div>
-            <div class="main-section-services-hot-tours-africa-right">
-              <div class="main-section-services-hot-tours-africa-right--title">
-                Mauritius Island, Africa 
-              </div>
-                <div class="main-section-services-hot-tours-africa-right--content">
-                  <div class="main-section-services-hot-tours-africa-right--content-des">
-                    The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the conclusion of your safari. Indulge in the delightful scents of the fragrant...
-                  </div>
-              <div class="main-section-services-hot-tours-right-africa--buttons">
-                <button class="btn-buythistour1">Buy This Tour</button>
-              </div>
-            </div>
-          </div> 
-        </div>
 
+        <!-- diffrent People-->
+        <div class="main-section-services-different">
+           <div class="main-section-services-different-heading">
+               <h1>Different People — One Mission</h1>
+           </div>
+          <!-- <div class="main-section-services-different-images">
+            <div class="main-section-services-different-images-diana">
+              <img src=""
+            </div>
+            <div class="main-section-services-different-images-peter"></div>
+            <div class="main-section-services-different-images-jill"></div>
+            <div class="main-section-services-different-images-james"></div>
+            
+          </div> -->
+          <div class="main-section-services-different-people">
+               <div class="main-section-services-different-people-first">
+                    <div class="main-section-services-different-people-first-image">
+                      <img src="images\diana.jpg" alt="person" />
+                    </div>
+                  <div class="main-section-services-different-people-first-content">
+                      <h6>Diana Robinson</h6>
+                      <p>Founder, Owner</p>
+                      <h5>+1 323-913-4688</h5>
+                  </div>
+               </div>
+              <div class="main-section-services-different-people-second">
+                  <div class="main-section-services-different-people-second-image">
+                    <img src="images\peter.jpg" alt="person" />
+                  </div>
+               <div class="main-section-services-different-people-second-content">
+                    <h6>Peter McMillan</h6>
+                    <p>Travel Agent</p>
+                    <h5>+1 323-913-4688</h6>
+               </div>
+              </div> 
+
+              <div class="main-section-services-different-people-third">
+                  <div class="main-section-services-different-people-third-image">
+                    <img src="images\jill.jpg" alt="person" />
+                  </div>
+               <div class="main-section-services-different-people-third-content">
+                    <h6>Jill Peterson</h6>
+                    <p>Tour Consultant</p>
+                    <h5>+1 323-913-4688</h6>
+               </div>
+             
+            </div>
+          </div>  
+        </div>
+        <!--First Class Imression-->
+       <div class="main-section-services-Impressions">
+            <div class="main-section-services-Impressions-subtitle">
+                First-class Impressions are Waiting for You!
+            </div>
+            <div class="main-section-services-Impressions-title">
+               Our agency offers travelers various tours and excursions with destinations all over the world. Browse our website to find your dream tour!
+            </div>
+            <div class="main-section-services-Impressions-cta">
+               <button class="button-third">
+                  Book a Tour Now
+               </button>
+           </div>
+          </div>
+       </div>
+      <!--Service-gallery-->
+      <div class="main-section-services-gallery">
+          <div class="main-section-services-gallery-heading">
+            Gallery
+          </div>  
+            <div class="main-section-services-gallery-view">
+                <div class="main-section-services-gallery-view-1">
+                  <img src="https://livedemo00.template-help.com/wt_51647/images/gallery-image-2-270x195.jpg" alt="" />
+                </div>
+                <div class="main-section-services-gallery-view-2">
+                  <img src="https://livedemo00.template-help.com/wt_51647/images/gallery-image-3-270x195.jpg"  alt=""/>
+                </div>
+                <div class="main-section-services-gallery-view-3">
+                  <img src="https://livedemo00.template-help.com/wt_51647/images/gallery-image-4-270x195.jpg" alt=""/>
+                </div>
+                <div class="main-section-services-gallery-view-4">
+                  <img src="https://livedemo00.template-help.com/wt_51647/images/gallery-image-5-270x195.jpg" alt=""/>
+                </div>
+                <div class="main-section-services-gallery-view-5">
+                  <img src="https://livedemo00.template-help.com/wt_51647/images/gallery-image-6-270x195.jpg" alt=""/>
+                </div>
+             </div>
+        </div>
+      <!--footer-->
+
+      <footer>
+        <div class="footer-content">
+               <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                        <ul>
+                          <li><i class="fa fa-phone"></i> +1 323-913-4688</li>
+                          <li><i class="fa fa-envelope"></i> info@demolink.org</li>
+                          <li><i class="fa fa-map-marker"></i> 4730 Crystal Springs, CA 90027</li>
+                        </ul>
+                </div>
+                <div class="footer-section news">
+                    <h2>Popular News</h2>
+                        <ul>
+                          <li><a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a><span> - May 04, 2019</span></li>
+                          <li><a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a><span> - May 04, 2019</span></li>
+                        </ul>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                        <ul>
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Our Tours</a></li>
+                          <li><a href="#">Our Team</a></li>
+                          <li><a href="#">Gallery</a></li>
+                          <li><a href="#">Blog</a></li>
+                        </ul>
+                       <button class="footer-button">Get in touch</button>
+                </div>
+             </div>
+            <div class="footer-bottom">
+                <h4> &copy; 2024 TravelWithUs | Designed by Sonakshi Mathur</h4>
+           </div>
+      </footer>
       </div>
     </div>
   </div>
